@@ -113,6 +113,7 @@ body {
             top: -10px;
             left: 80px
         }
+        
     }
     p{
         text-align: center;
@@ -178,14 +179,22 @@ body {
         // border-bottom: 3px dotted #000;
          
          background-color: #D2E69C;
-        img{
+        .bike{
             height: 100px;
-            animation: ride 2s infinite ;
+            animation: ride 2.5s infinite ;
+        }
+        .tree{
+            height: 150px;
+            transform: translateX(20px) translateY(-100px);
+        }
+        .tree2{
+            height: 78px;
+            transform: translateX(40px) translateY(-120px);
         }
     }
 }
 
 @keyframes ride{
-    0%{transform: translateX(-150px);}
-    100%{transform: translateX(400px);}
+    0%{transform: translateX(-280px);}
+    100%{transform: translateX(300px);}
 }

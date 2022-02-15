@@ -1458,31 +1458,43 @@ body {
   background-color: #D2E69C;
 }
 
-.page4 .road img {
+.page4 .road .bike {
   height: 100px;
-  -webkit-animation: ride 2s infinite;
-          animation: ride 2s infinite;
+  -webkit-animation: ride 2.5s infinite;
+          animation: ride 2.5s infinite;
+}
+
+.page4 .road .tree {
+  height: 150px;
+  -webkit-transform: translateX(20px) translateY(-100px);
+          transform: translateX(20px) translateY(-100px);
+}
+
+.page4 .road .tree2 {
+  height: 78px;
+  -webkit-transform: translateX(40px) translateY(-120px);
+          transform: translateX(40px) translateY(-120px);
 }
 
 @-webkit-keyframes ride {
   0% {
-    -webkit-transform: translateX(-150px);
-            transform: translateX(-150px);
+    -webkit-transform: translateX(-280px);
+            transform: translateX(-280px);
   }
   100% {
-    -webkit-transform: translateX(400px);
-            transform: translateX(400px);
+    -webkit-transform: translateX(300px);
+            transform: translateX(300px);
   }
 }
 
 @keyframes ride {
   0% {
-    -webkit-transform: translateX(-150px);
-            transform: translateX(-150px);
+    -webkit-transform: translateX(-280px);
+            transform: translateX(-280px);
   }
   100% {
-    -webkit-transform: translateX(400px);
-            transform: translateX(400px);
+    -webkit-transform: translateX(300px);
+            transform: translateX(300px);
   }
 }
 /*# sourceMappingURL=style.css.map */
