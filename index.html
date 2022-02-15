@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="book">
+            <div class="page cover" onclick="movePage(this, 1)"  > 
+                <div class="title">
+                        <h1>
+                            <div class="lead">L</div>
+                            <div class="lead-rest">earn</div>
+                        </h1>
+                </div>
+               
+                <div class="with" > 
+                      <span>with</span>  
+                </div>
+                <p>this book</p>
+            </div>
+            <div class="page page1" onclick="movePage(this, 2) " ></div>
+            <div class="page page2" onclick="movePage(this, 3)" >
+                <div class="quote-wrapper">
+
+                    <div class="quote"> Retrieving data ....</div>
+                    <div class="author" style="text-align: end;"> </div>
+                </div>
+
+                
+            </div>
+            <div class="page page3"  onclick="movePage(this, 4)"  > </div>
+            <div class="page page4"  onclick="movePage(this, 5)" >
+
+                <div class="title">Don't miss a chance for a walk</div>
+                <div class="wrapper">
+
+                    <div class="sky">
+    
+                        <img src="./assets/sun.png" alt="">
+                    </div>
+                    <div class="road">
+                        <img src="./assets/Dayflow - Riding.png" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+            <div class="page"  onclick="movePage(this, 6)" style="background: green;">Page 4</div>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
