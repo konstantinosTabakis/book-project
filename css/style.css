@@ -34,7 +34,6 @@ body {
 .page {
   width: 500px;
   height: 600px;
-  background: #EEE6CE;
   position: absolute;
   top: 0;
   right: 0;
@@ -42,8 +41,7 @@ body {
   transition: -webkit-transform 2s ease;
   transition: transform 2s ease;
   transition: transform 2s ease, -webkit-transform 2s ease;
-  -webkit-box-shadow: 0px 5px 14px 4px rgba(0, 0, 0, 0.116);
-          box-shadow: 0px 5px 14px 4px rgba(0, 0, 0, 0.116);
+  background-color: #fff;
 }
 
 .page:nth-child(1) {
@@ -52,6 +50,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-1px);
           transform: translatez(-1px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(1) {
@@ -78,6 +78,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-3px);
           transform: translatez(-3px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(3) {
@@ -104,6 +106,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-5px);
           transform: translatez(-5px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(5) {
@@ -130,6 +134,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-7px);
           transform: translatez(-7px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(7) {
@@ -156,6 +162,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-9px);
           transform: translatez(-9px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(9) {
@@ -182,6 +190,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-11px);
           transform: translatez(-11px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(11) {
@@ -208,6 +218,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-13px);
           transform: translatez(-13px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(13) {
@@ -234,6 +246,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-15px);
           transform: translatez(-15px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(15) {
@@ -260,6 +274,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-17px);
           transform: translatez(-17px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(17) {
@@ -286,6 +302,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-19px);
           transform: translatez(-19px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(19) {
@@ -312,6 +330,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-21px);
           transform: translatez(-21px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(21) {
@@ -338,6 +358,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-23px);
           transform: translatez(-23px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(23) {
@@ -364,6 +386,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-25px);
           transform: translatez(-25px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(25) {
@@ -390,6 +414,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-27px);
           transform: translatez(-27px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(27) {
@@ -416,6 +442,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-29px);
           transform: translatez(-29px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(29) {
@@ -442,6 +470,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-31px);
           transform: translatez(-31px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(31) {
@@ -468,6 +498,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-33px);
           transform: translatez(-33px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(33) {
@@ -494,6 +526,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-35px);
           transform: translatez(-35px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(35) {
@@ -520,6 +554,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-37px);
           transform: translatez(-37px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(37) {
@@ -546,6 +582,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-39px);
           transform: translatez(-39px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(39) {
@@ -572,6 +610,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-41px);
           transform: translatez(-41px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(41) {
@@ -598,6 +638,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-43px);
           transform: translatez(-43px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(43) {
@@ -624,6 +666,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-45px);
           transform: translatez(-45px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(45) {
@@ -650,6 +694,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-47px);
           transform: translatez(-47px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(47) {
@@ -676,6 +722,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-49px);
           transform: translatez(-49px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(49) {
@@ -702,6 +750,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-51px);
           transform: translatez(-51px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(51) {
@@ -728,6 +778,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-53px);
           transform: translatez(-53px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(53) {
@@ -754,6 +806,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-55px);
           transform: translatez(-55px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(55) {
@@ -780,6 +834,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-57px);
           transform: translatez(-57px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(57) {
@@ -806,6 +862,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-59px);
           transform: translatez(-59px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(59) {
@@ -832,6 +890,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-61px);
           transform: translatez(-61px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(61) {
@@ -858,6 +918,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-63px);
           transform: translatez(-63px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(63) {
@@ -884,6 +946,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-65px);
           transform: translatez(-65px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(65) {
@@ -910,6 +974,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-67px);
           transform: translatez(-67px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(67) {
@@ -936,6 +1002,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-69px);
           transform: translatez(-69px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(69) {
@@ -962,6 +1030,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-71px);
           transform: translatez(-71px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(71) {
@@ -988,6 +1058,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-73px);
           transform: translatez(-73px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(73) {
@@ -1014,6 +1086,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-75px);
           transform: translatez(-75px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(75) {
@@ -1040,6 +1114,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-77px);
           transform: translatez(-77px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(77) {
@@ -1066,6 +1142,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-79px);
           transform: translatez(-79px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(79) {
@@ -1092,6 +1170,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-81px);
           transform: translatez(-81px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(81) {
@@ -1118,6 +1198,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-83px);
           transform: translatez(-83px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(83) {
@@ -1144,6 +1226,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-85px);
           transform: translatez(-85px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(85) {
@@ -1170,6 +1254,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-87px);
           transform: translatez(-87px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(87) {
@@ -1196,6 +1282,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-89px);
           transform: translatez(-89px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(89) {
@@ -1222,6 +1310,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-91px);
           transform: translatez(-91px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(91) {
@@ -1248,6 +1338,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-93px);
           transform: translatez(-93px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(93) {
@@ -1274,6 +1366,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-95px);
           transform: translatez(-95px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(95) {
@@ -1300,6 +1394,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-97px);
           transform: translatez(-97px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(97) {
@@ -1326,6 +1422,8 @@ body {
           transform-origin: 0 50%;
   -webkit-transform: translatez(-99px);
           transform: translatez(-99px);
+  -webkit-box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
+          box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
 }
 
 .left-side:nth-child(99) {
@@ -1351,6 +1449,7 @@ body {
   font-size: 40px;
   color: #B8405E;
   font-weight: bold;
+  background: #EEE6CE;
 }
 
 .cover .title h1 {
@@ -1403,7 +1502,7 @@ body {
 }
 
 .page2 {
-  background-color: #B8405E;
+  background: #EEE6CE;
   color: #fff;
 }
 
@@ -1420,81 +1519,47 @@ body {
 }
 
 .page3 {
-  background-color: #B8405E;
+  background-color: #1C658C;
+  color: #EEEEEE;
+  font-size: 26px;
+}
+
+.choice1:hover .opt1 {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  color: red;
 }
 
 .page4 {
-  background-color: #fff;
+  background-color: #1C658C;
 }
 
-.page4 .title {
-  font-family: "Gaegu", cursive;
-  font-size: 28px;
-  font-weight: 300;
-  margin: 41px 0;
+.choices-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 40px;
 }
 
-.page4 .wrapper {
-  border-radius: 14px;
-  -webkit-box-shadow: 0px 5px 14px 4px rgba(0, 0, 0, 0.281);
-          box-shadow: 0px 5px 14px 4px rgba(0, 0, 0, 0.281);
-  overflow: hidden;
-  border-radius: 10px;
+.circle {
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 20px 30px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.3em;
 }
 
-.page4 .sky {
-  background-color: #28B5B5;
-  text-align: end;
-  height: 200px;
-  padding: 20px;
+.circle:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
-.page4 .sky img {
-  width: 80px;
-}
-
-.page4 .road {
-  height: 150px;
-  background-color: #D2E69C;
-}
-
-.page4 .road .bike {
-  height: 100px;
-  -webkit-animation: ride 2.5s infinite;
-          animation: ride 2.5s infinite;
-}
-
-.page4 .road .tree {
-  height: 150px;
-  -webkit-transform: translateX(20px) translateY(-100px);
-          transform: translateX(20px) translateY(-100px);
-}
-
-.page4 .road .tree2 {
-  height: 78px;
-  -webkit-transform: translateX(40px) translateY(-120px);
-          transform: translateX(40px) translateY(-120px);
-}
-
-@-webkit-keyframes ride {
-  0% {
-    -webkit-transform: translateX(-280px);
-            transform: translateX(-280px);
-  }
-  100% {
-    -webkit-transform: translateX(300px);
-            transform: translateX(300px);
-  }
-}
-
-@keyframes ride {
-  0% {
-    -webkit-transform: translateX(-280px);
-            transform: translateX(-280px);
-  }
-  100% {
-    -webkit-transform: translateX(300px);
-            transform: translateX(300px);
-  }
+.target {
+  color: #2EB086;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */

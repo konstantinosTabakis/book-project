@@ -42,27 +42,26 @@ body {
    height: 600px;
    width: 1000px;
     transform-style: preserve-3d;
-    
 }
 .page {
     width: 500px;
     height: 600px;
-    background: $colo1;
     position: absolute;
     top: 0;
     right: 0;
     transition: transform 2s ease;
-    box-shadow: 0px 5px 14px 4px rgba(0, 0, 0, 0.116);
+    // filter:drop-shadow( 0 0 2rem rgba(51, 51, 51, 0.116)) ;
+    background-color: #fff;
+}
 
-  }
 
-
-  @for $i from 1 through 100 {
+@for $i from 1 through 100 {
     .page:nth-child(#{$i}) {
-      @if $i % 2 == 1 {
-        padding: 5% 4% 4% 5%;
-        transform-origin: 0 50% ;
-        transform: translatez(-1px *$i ) ;
+        @if $i % 2 == 1 {
+            padding: 5% 4% 4% 5%;
+            transform-origin: 0 50% ;
+            transform: translatez(-1px *$i ) ;
+            box-shadow: 0px 5px 14px 4px rgba(216, 214, 214, 0.068);
       } @else {
         padding: 5% 5% 4% 4%;
         transform-origin: 100% 50%;
@@ -87,7 +86,7 @@ body {
     font-size: 40px;
     color: #B8405E;
     font-weight: bold;
-    
+    background: $colo1;
     .title{
         h1{
             text-transform: uppercase;
@@ -130,9 +129,9 @@ body {
         position: absolute;
     }
 }
-
+ 
 .page2{
-    background-color:  $colo3;
+    background: $colo1;
     color: #fff;
     .quote-wrapper{
         width: 100%;
@@ -147,54 +146,85 @@ body {
 }
 
 .page3{
-    background-color: #B8405E;
+    background-color: $colo6;
+    color: $colo7;
+    font-size: 26px;
+}
+
+.choice1:hover .opt1{
+    transform: scale(1.5);
+    color: red;
 }
 .page4{
-    background-color: #fff;
-    .title{
-        font-family: $font5;
-        font-size: 28px;
-        font-weight: 300;
-        margin: 41px 0
-    }
-    .wrapper{
-        border-radius: 14px;
-        box-shadow: 0px 5px 14px 4px rgba(0, 0, 0, 0.281);
-        overflow: hidden;
-        border-radius: 10px;
-    }
-    .sky{
-        background-color: #28B5B5;
-        text-align: end;
-        height: 200px;
-        padding: 20px;
+    background-color: $colo6;
+    // .title{
+    //     font-family: $font5;
+    //     font-size: 28px;
+    //     font-weight: 300;
+    //     margin: 41px 0
+    // }
+    // .wrapper{
+    //     border-radius: 14px;
+    //     box-shadow: 0px 5px 14px 4px rgba(0, 0, 0, 0.281);
+    //     overflow: hidden;
+    //     border-radius: 10px;
+    // }
+    // .sky{
+    //     background-color: #28B5B5;
+    //     text-align: end;
+    //     height: 200px;
+    //     padding: 20px;
 
-        img{
-            width: 80px ;
-        }
-    }
-    .road{
-        height: 150px;
+    //     img{
+    //         width: 80px ;
+    //     }
+    // }
+    // .road{
+    //     height: 150px;
         
-        // border-bottom: 3px dotted #000;
+      
          
-         background-color: #D2E69C;
-        .bike{
-            height: 100px;
-            animation: ride 2.5s infinite ;
-        }
-        .tree{
-            height: 150px;
-            transform: translateX(20px) translateY(-100px);
-        }
-        .tree2{
-            height: 78px;
-            transform: translateX(40px) translateY(-120px);
-        }
-    }
+    //      background-color: #D2E69C;
+    //     .bike{
+    //         height: 100px;
+    //         animation: ride 2.5s infinite ;
+    //     }
+    //     .tree{
+    //         height: 150px;
+    //         transform: translateX(20px) translateY(-100px);
+    //     }
+    //     .tree2{
+    //         height: 78px;
+    //         transform: translateX(40px) translateY(-120px);
+    //     }
+    // }
 }
 
-@keyframes ride{
-    0%{transform: translateX(-280px);}
-    100%{transform: translateX(300px);}
+.choices-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
 }
+.circle{
+    border: 1px solid;
+    // color: red;
+    border-radius: 50%;
+    padding: 20px 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.circle:hover{
+    transform: scale(1.2);
+
+}
+
+.target{
+    color: $colo2;
+    text-decoration: underline;
+}
+
+// @keyframes ride{
+//     0%{transform: translateX(-280px);}
+//     100%{transform: translateX(300px);}
+// }
