@@ -17,10 +17,10 @@ function movePage(e, page) {
   
 }
 
-// fetch('https://api.quotable.io/random')
-// .then(res=> res.json())
-// .then(data =>{
-//   console.log(data);
-//   document.querySelector('.page2 .quote').innerHTML= data.content
-//   document.querySelector('.page2 .author').innerHTML= data.author
-// })
+fetch('https://api.quotable.io/random')
+.then(res=> res.json())
+.then(data =>{
+  console.log(data);
+  document.querySelector('.page2 .quote').innerHTML= data.content
+  document.querySelector('.page2 .author').innerHTML= data.author
+})
