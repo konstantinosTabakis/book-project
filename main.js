@@ -16,7 +16,7 @@ function movePage(e, page) {
   }
   
 }
-
+//api call
 fetch('https://api.quotable.io/random')
 .then(res=> res.json())
 .then(data =>{
